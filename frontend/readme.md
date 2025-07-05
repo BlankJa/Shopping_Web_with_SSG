@@ -83,11 +83,6 @@ npm run dev
 npm run build
 ```
 
-### 静态站点生成
-```bash
-npm run build:static
-```
-
 ### 预览构建结果
 ```bash
 npm run preview
@@ -125,26 +120,6 @@ VITE_PUBLIC_URL=/shopping/
 - 自定义主题
 - 组件级CSS
 
-## 部署说明
-
-1. 构建生产版本：
-```bash
-npm run build
-```
-
-2. 生成静态站点：
-```bash
-npm run build:static
-```
-
-3. 部署`dist`目录内容到Web服务器
-
-## 测试
-
-运行测试：
-```bash
-npm run test
-```
 
 ## 性能优化建议
 
